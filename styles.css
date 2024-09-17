@@ -1,0 +1,106 @@
+/* Styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f5f5f5;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Section principale */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Sections de contenu */
+section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section ul li {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Section pour le widget externe */
+.external-widget {
+    background-color: #e9f5ff;
+    border: 1px solid #b3e0ff;
+}
+
+#widget-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    min-height: 200px; /* Ajustez cette hauteur si nécessaire */
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    background-color: #f5f5f5;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
